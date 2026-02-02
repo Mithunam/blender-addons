@@ -134,7 +134,7 @@ def register():
 
 1. **Naming Conventions:**
    - Operators: `CATEGORY_OT_name` (e.g., `OBJECT_OT_check_thickness`)
-   - Panels: `CATEGORY_PT_name` (e.g., `VIEW3D_PT_3dprinttoolkits`)
+   - Panels: `CATEGORY_PT_name` (e.g., `VIEW3D_PT_3DPrintToolKits`)
    - Properties: `CATEGORY_PG_name` (e.g., `SCENE_PG_print_settings`)
 
 2. **Registration:**
