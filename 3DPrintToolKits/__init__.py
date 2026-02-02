@@ -19,7 +19,7 @@ from bpy.types import Panel
 class VIEW3D_PT_3DPrintToolKits(Panel):
     """Main panel for 3DPrintToolKits addon"""
     bl_label = "3DPrintToolKits"
-    bl_idname = "VIEW3D_PT_3dprinttoolkits"
+    bl_idname = "VIEW3D_PT_3DPrintToolKits"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = '3DPrintToolKits'
@@ -34,8 +34,8 @@ class VIEW3D_PT_3DPrintToolKits(Panel):
         # Sample buttons for future functionalities
         col = layout.column(align=True)
         col.label(text="Mesh Analysis:")
-        col.operator("object.mode_set", text="Check Thickness", icon='MOD_SOLIDIFY').mode = 'OBJECT'
-        col.operator("object.mode_set", text="Check Normals", icon='NORMALS_FACE').mode = 'OBJECT'
+        col.label(text="• Thickness Check (Coming Soon)", icon='MOD_SOLIDIFY')
+        col.label(text="• Normals Check (Coming Soon)", icon='NORMALS_FACE')
         
         # Separator
         layout.separator()
